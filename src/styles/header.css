@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+*{
+    margin: 0;
+}
+.header{
+    background-color:  #512689;
+    display: flex;
+    flex-direction: column;
+    min-height: 230px;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    font-size: 64px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 75px;
+}
+.sup-title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    max-width: 850px;
+    display: table;
+    margin: 0px auto;
+    margin-bottom: 64px;
+}
+.button{
+    width: 100px;
+    height: 35px;
+    float: inline-end;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #F8F8F8;
+    color: #FFFFFF;
+}
+.button:hover{
+    opacity: 0.6;
+}
+.button-link{
+    position: relative;
+    left: 40%;
+    top: 32px;
+}
+
+a{
+    text-decoration: none;
+}
