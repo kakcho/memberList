@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-@media (max-width: 500px) {
-    .auth-form{
-        width: 380px;
-
-    }
-    .section{
-        width: 100px;
-    }
-}
-
 *{
     margin: 0;
 }
@@ -51,3 +41,4 @@ input{
     background-color: #F8F8F8;
 
 }
+
