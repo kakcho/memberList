@@ -61,13 +61,13 @@
         font-size: 50px;
     }
     .hand{
-        margin-top: 18vh;
+        margin-top: 20vh;
     }
     .hand-2{
-        margin-top: 18vh;
+        margin-top: 20vh;
     }
     .modal__content{
-        height: 360px;
+        height: 40vh;
         min-width: 60vh;
     }
 }
